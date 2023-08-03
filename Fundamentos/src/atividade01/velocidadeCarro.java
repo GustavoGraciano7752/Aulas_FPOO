@@ -10,9 +10,9 @@ public class velocidadeCarro {
         double multa = (velocidade - 80) * 5;
         
         if (velocidade > 80) {
-            System.out.println("Você foi multado em R$ " + multa);
+            System.out.println("Voce foi multado em R$ " + multa);
         } else {
-            System.out.println("Você estava dentro do limite de velocidade");
+            System.out.println("Voce estava dentro do limite de velocidade");
         }
     }
 }

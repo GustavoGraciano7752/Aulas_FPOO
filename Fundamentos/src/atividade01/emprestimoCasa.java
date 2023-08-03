@@ -14,7 +14,7 @@ public class emprestimoCasa {
         int meses = anos / 12;
         double prestacao = valorCasa / meses;
         
-        if (prestacao < 0.3 * salario) {
+        if (prestacao > 0.3 * salario) {
             System.out.println("Emprestimo aprovado"); 
         } else {
             System.out.println("Emprestimo negado");

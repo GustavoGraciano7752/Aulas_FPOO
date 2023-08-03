@@ -10,11 +10,11 @@ public class calculoSalario {
         
         
         if (salario >= 1350) {
-            double aumento = salario - (salario * 10/100);
-            System.out.println("Seu salario com aumento é: " + aumento);
+            double aumento = salario + (salario * 10/100);
+            System.out.println("Seu salario com aumento e: " + aumento);
         } else {
-            double aumento = salario - (salario * 15/100);
-            System.out.println("Seu salario com aumento é: " + aumento);
+            double aumento = salario + (salario * 15/100);
+            System.out.println("Seu salario com aumento e: " + aumento);
             
         }
     }
