@@ -17,5 +17,18 @@ public class TesteClasses {
         aluno01.estudar();
         aluno01.verificarAprovado();
         System.out.println(aluno01);
+        
+        Carro carro01 = new Carro("Celta Turbinado", MarcaEnum.LANBORGHINI, CorEnum.VERMELHO, true, 2000, 4, 0);
+        
+        System.out.println(carro01);
+        
+        carro01.andar(20);
+        carro01.andar(60);
+        carro01.andar(100);
+        
+        carro01.freiar();
+        carro01.freiar();
+        
+        System.out.println(carro01);
     }
 }
