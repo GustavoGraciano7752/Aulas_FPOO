@@ -9,5 +9,6 @@ package orientacaoobjetos;
  * @author Aluno
  */
 public interface CadastroCliente {
-    
+    public boolean validarNome (String nome);
+    public boolean vefificarEmailDominioGoogle (String email);
 }
